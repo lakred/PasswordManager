@@ -1,0 +1,12 @@
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\bin\Debug\net6.0\DbSettings.deps.json
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\bin\Debug\net6.0\DbSettings.dll
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\bin\Debug\net6.0\DbSettings.pdb
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.AssemblyInfo.cs
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.dll
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\refint\DbSettings.dll
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.pdb
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\ref\DbSettings.dll

@@ -29,5 +29,8 @@ public partial class PasswordManagerContext : DbContext
             entity.Property(e => e.Password).IsRequired().HasMaxLength(255).IsUnicode();
             entity.Property(e => e.CreationDate).HasDefaultValueSql("GETDATE()");
         });
+        
+        OnModelCreatingPartial(modelBuilder);
     }
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

@@ -17,20 +17,32 @@ namespace PasswordManagerLibrary
         {
 
             int atSign = username.IndexOf("@", 0, username.Length);
-            int dotSign = username.IndexOf(".", 0, username.Length);
+            int dotSign = username.IndexOf(".", atSign);
             int countAt = 0;
+            int countDot = 0;
+            int countS = 0;
             foreach (char c in username)
             {
                 if (c.ToString() == "@")
                 {
                     countAt++;
                 }
-            }
-            if (atSign > 0 && dotSign > 0 && atSign < dotSign && countAt == 1)
-            {
+                if (c.ToString() == ".")
+                {
+                    countDot++;
+                }
+                if (!char.IsLetterOrDigit(c))
+                {
+                    countS++;
+                }
 
-                return true;
-            }return false;
+            }
+            
+            if (atSign > 0 && dotSign > 0 && atSign + 2 < dotSign && countAt == 1 && countDot+countAt==countS)
+            {
+                 return true;
+            }
+            return false;
         }
         public bool ValidatePassword(string password)
         {

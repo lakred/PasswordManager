@@ -1,7 +1,5 @@
-﻿using DbSettings;
-
+﻿using CsvPrinter;
 using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
@@ -58,12 +56,17 @@ namespace PasswordManagerLibrary
                                 var id = reader.GetInt32(0);
 
                                 Console.WriteLine($"credenziali create con ID: {id}");
+                                var printCsv = new PrintCsv(connectionString);
+                                Console.WriteLine("Se vuoi stampare una ricevuta digita 1");
+                                int scelta = Convert.ToInt32(Console.ReadLine());
+                                if (scelta == 1)
+                                {
+                                    printCsv.PrintFileCsv(email);
+                                }
                             }
                         }
                     }
                 }
-               
-
 
             }
             else

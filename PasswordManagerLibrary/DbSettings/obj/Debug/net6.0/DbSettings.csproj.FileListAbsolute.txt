@@ -10,3 +10,6 @@ C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSetti
 C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\refint\DbSettings.dll
 C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.pdb
 C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\ref\DbSettings.dll
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\bin\Debug\net6.0\CsvPrinter.dll
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\bin\Debug\net6.0\CsvPrinter.pdb
+C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\DbSettings\obj\Debug\net6.0\DbSettings.csproj.CopyComplete

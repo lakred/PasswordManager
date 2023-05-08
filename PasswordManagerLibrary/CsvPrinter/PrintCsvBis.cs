@@ -22,8 +22,8 @@ namespace CsvPrinter
         public void PrintFileCsv(string email, string password)
         {
 
-            string ricevuta = " ";
-            string namefile = " ";
+            string ricevuta;
+            string namefile;
             using (var connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -39,10 +39,11 @@ namespace CsvPrinter
                             var password1 = reader.GetString(2);
                             var creationDate = reader.GetDateTime(3).ToString("yyyyMMdd");
                             var creationDaten = reader.GetDateTime(3).ToString("yyyy-MM-dd");
+
                             if (password1 == password)
                             {
-                                ricevuta = id + ";" + userMail + ";" + password1 + ";" + creationDate;
-                                namefile = $@"C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\PasswordManager\csv\{id};{creationDaten}.csv";
+                                ricevuta = "matricola;username;password;data \n" + id + ";" + userMail + ";" + password1 + ";" + creationDate;
+                                namefile = $@"C:\Users\Mohamed\Documents\GitHub\PasswordManager\PasswordManagerLibrary\PasswordManager\csv\{id}-{creationDaten}.csv";
 
                                 using (var writer = new StreamWriter(namefile))
 
